@@ -1,10 +1,30 @@
+body {
+    display: inline-flexbox;
+    background-color: #71C9CE;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
 nav li {
     float: left;
     list-style: none;
+    text-align: center;
 }
 
 nav li a {
     display: block;
     padding: 8px;
     background-color: white;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
 }
