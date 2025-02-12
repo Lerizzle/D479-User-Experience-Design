@@ -1,6 +1,8 @@
 body {
     display: inline-flexbox;
     background-color: #71C9CE;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
     
 }
 
@@ -32,3 +34,11 @@ a {
     text-decoration: none;
 }
 
+.images {
+    justify-content: center;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
